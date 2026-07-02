@@ -45,7 +45,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `phone`, `state`, `username`, `password`, `address`, `agency_id`, `photo`) VALUES
-(10, 'Allen Pascual\r\n', 'jonathan@gmail.com', '09063633140', 'Abuja', 'admin', 'admin', 'FCT', '6757', 'admin08d9b861efdf38556a13bceab9930529.jpg');
+(10, 'demo admin', 'admin@admin.com', '00000000000', 'PH', 'admin', 'admin', 'FCT', '6757', 'admin08d9b861efdf38556a13bceab9930529.jpg');
 
 -- --------------------------------------------------------
 
