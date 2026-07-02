@@ -1,0 +1,16 @@
+# Environment / secrets
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Uploaded user files (don't commit real user data)
+# Comment this out if you want sample uploads in the repo
+# emergency/uploads/*
+# !emergency/uploads/default.jpg

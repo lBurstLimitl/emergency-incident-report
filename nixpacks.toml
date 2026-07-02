@@ -1,0 +1,8 @@
+# Railway reads this file to know how to build and run your PHP project
+# No changes needed — just commit this to your repo root
+
+[phases.build]
+cmds = []
+
+[start]
+cmd = "php -S 0.0.0.0:$PORT -t emergency"
