@@ -1,5 +1,8 @@
 {
   "$schema": "https://railpack.com/schema.json",
+  "build": {
+    "packages": ["php8.3-mysql", "php8.3-pdo-mysql"]
+  },
   "deploy": {
     "startCommand": "php -S 0.0.0.0:$PORT"
   }
