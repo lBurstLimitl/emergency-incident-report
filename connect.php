@@ -1,10 +1,6 @@
 <?php
 
 
-var_dump(extension_loaded('pdo_mysql'));
-var_dump(PDO::getAvailableDrivers());
-die();
-
 $db_host     = getenv('DB_HOST') ?: 'localhost';
 $db_user     = getenv('DB_USER') ?: 'root';
 $db_pass     = getenv('DB_PASS') ?: '';

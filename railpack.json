@@ -1,7 +1,10 @@
 {
   "$schema": "https://railpack.com/schema.json",
   "build": {
-    "packages": ["php8.4-mysql", "php8.4-pdo-mysql"]
+     "cmds": [
+      "apt-get install -y php8.4-mysql php8.4-pdo-mysql",
+      "docker-php-ext-enable pdo_mysql mysqli"
+    ]
   },
   "deploy": {
     "startCommand": "php -S 0.0.0.0:$PORT"
