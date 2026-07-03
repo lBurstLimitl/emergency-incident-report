@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(0);
+ini_set('display_errors', 0);
 
 $db_host     = getenv('DB_HOST') ?: 'localhost';
 $db_user     = getenv('DB_USER') ?: 'root';
